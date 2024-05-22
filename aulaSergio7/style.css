@@ -1,0 +1,28 @@
+button{
+    width: 100px;
+    height: 100px;
+    line-height: 100px;
+    background-color: rgb(159, 212, 230);
+    border: 2px rgb(58, 124, 136) solid;
+    color: black;
+    font-size: 100px;
+    border-left: 0;
+    border-top: 0;
+    vertical-align: middle;
+}
+#bt20, #bt21, #bt22{
+    border-bottom: 0;
+    
+}
+
+
+#bt02, #bt12, #bt22{
+    border-right: 0;
+}
+
+button:disabled{
+    border-color: rgb(58, 124, 136);
+}
+html{
+    background-color: lightblue;
+}
