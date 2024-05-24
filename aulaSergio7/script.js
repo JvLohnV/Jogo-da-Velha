@@ -127,4 +127,13 @@ function encerraJogo() {
         }
     }
 }
-
+function reset() {
+    for (let i = 0; i < tabuleiro.length; i++) {
+        for (let j = 0; j < tabuleiro[i].length; j++) {
+            let resetar = "bt" + i + "" + j;
+            document.getElementById(resetar).innerText = ""; // Limpa o nome dos botões
+            document.getElementById(resetar).disabled = false; // Permiti clicar novamente
+        }
+    }
+    jogada = 1; // Reseta as jogadas
+}
